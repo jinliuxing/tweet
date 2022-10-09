@@ -1,7 +1,7 @@
 import client from "../../../lib/server/client";
 import type { NextApiRequest, NextApiResponse } from "next";
-import withMethodGuard from "lib/server/withMethodGuard";
-import { withApiSession } from "lib/server/withSession";
+import withMethodGuard from "../../../lib/server/withMethodGuard";
+import { withApiSession } from "../../../lib/server/withSession";
 
 interface TweetWithUser {
   id: number;

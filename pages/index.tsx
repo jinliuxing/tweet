@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
-import useUser from "lib/client/useUser";
-import Input from "components/input";
+import useUser from "../lib/client/useUser";
+import Input from "../components/input";
 import { useForm } from "react-hook-form";
-import Layout from "components/layout";
-import Button from "components/button";
+import Layout from "../components/layout";
+import Button from "../components/button";
 import useMutation from "../lib/client/useMutation";
 import { useEffect } from "react";
 import useSWR from "swr";
 import { TweetResponse, TweetsResponse } from "@api/tweets";
-import { username } from "lib/client/utils";
-import Icon from "components/icon";
+import { username } from "../lib/client/utils";
+import Icon from "../components/icon";
 import { TweetLikeResponse } from "@api/tweets/likes";
 
 interface TweetFormData {

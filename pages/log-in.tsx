@@ -4,10 +4,10 @@ import { LoginResponse } from "@api/users/log-in";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { mutate } from "swr";
-import useMutation from "lib/client/useMutation";
-import Layout from "components/layout";
-import Input from "components/input";
-import Button from "components/button";
+import useMutation from "../lib/client/useMutation";
+import Layout from "../components/layout";
+import Input from "../components/input";
+import Button from "../components/button";
 
 interface LoginFormData {
   email: string;

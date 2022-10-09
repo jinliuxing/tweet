@@ -1,7 +1,7 @@
 import client from "../../../lib/server/client"
 import type { NextApiRequest, NextApiResponse } from "next";
 import bcrypt from "bcrypt";
-import withMethodGuard from "lib/server/withMethodGuard";
+import withMethodGuard from "../../../lib/server/withMethodGuard";
 
 export type SigninResponse = {
   ok: boolean;

@@ -1,4 +1,4 @@
-import useUser from "lib/client/useUser";
+import useUser from "../lib/client/useUser";
 import { ReactNode } from "react";
 import { mutate } from "swr";
 
